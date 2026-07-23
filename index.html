@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-plane-departure"></i>
+            <span>TravelBloom</span>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+                <i class="fas fa-search"></i>
+            </div>
+            <button type="button" id="btnSearch" class="btn btn-search">Search</button>
+            <button type="button" id="btnReset" class="btn btn-clear">Clear</button>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="hero-text">
+                <h1>EXPLORE DREAM DESTINATION</h1>
+                <p>The Travel Recommendation App helps users explore popular travel destinations through an interactive interface. Search for beaches, temples, or countries to view curated locations with pictures, descriptions, and local times.</p>
+                <a href="#" class="btn-book">Book Now</a>
+            </div>
+        </div>
+
+        <div id="resultsContainer" class="results-grid"></div>
+    </main>
+
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
