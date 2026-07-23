@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-plane-departure"></i>
+            <span>TravelBloom</span>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+                <i class="fas fa-search"></i>
+            </div>
+            <button type="button" id="btnSearch" class="btn btn-search">Search</button>
+            <button type="button" id="btnReset" class="btn btn-clear">Clear</button>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <section class="content-box">
+            <h1>CONTACT US</h1>
+            <p>Get in touch with us for any inquiries, recommendations, or support.</p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
